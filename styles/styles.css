@@ -1,7 +1,62 @@
-/
 
-.azeret-mono-normal> {
+.azeret-mono-normal{
   font-family: "Azeret Mono", monospace;
   font-optical-sizing: auto;
   font-style: normal;
+}
+*{
+    margin: 0;
+    padding:0;
+}
+/* shared styles */
+.title-color{
+    color:#0D1321;
+}
+.section-title{
+    font-size: 32px;
+    font-weight:800;
+}
+.section-description{
+    font-size: 16px;
+    opacity: 0.7;
+}
+#hero{
+    height: 655px;
+    background-image: url(/assets/Hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    margin-top: 130px;
+}
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 26px 221px 45px 221px;
+}
+.hero-banner-img{
+    padding: 26px 0 32px;
+}
+.hero-title{
+    font-size: 48px;
+    font-weight: 800;
+    /* line-height: 68px; */
+}
+.hero-description{
+    padding: 24px 73px 32px 73px;
+}
+.hero-button{
+    padding: 21px 24px;
+    background-color: #0D1321;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/*  */
+#dev-aim{
+    margin: 74px 152px 90px 148px;
+}
+.dev-aim-container{
+    padding: 80px 97px;
 }
