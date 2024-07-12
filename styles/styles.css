@@ -315,3 +315,6 @@ footer{
     flex-direction: row;
     gap: 25px;
 }
+.btn_submit{
+    border: none;
+}
